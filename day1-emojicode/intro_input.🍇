@@ -1,0 +1,38 @@
+📦 files 🏠
+
+🏁 🍇
+  💭 Read input file
+  🍺🔡 🍺📇🐇📄 🔤input.txt🔤❗️❗️➡️ fileContent
+  🔫fileContent 🔤
+🔤❗️➡️ fileContentSplit
+   
+
+  💭 Convert input file into dict of int->int
+  🆕🍯🐚🔡🍆❗️ ➡️ 🖍🆕numbersDict
+  🍡 fileContentSplit❗️ ➡️ fileContentSplitIterator
+  🔁 🔽 fileContentSplitIterator❓️ 🍇
+    🔽 fileContentSplitIterator❗️ ➡️ numberStr
+    ↪️🔢numberStr 10❗️ ➡️ number 🍇
+      numberStr ➡️🐽numbersDict numberStr❗️
+    🍉
+  🍉
+  
+  💭 Check for integer pairs
+  🐙numbersDict❗️➡️numbersDictKeys
+  🍡 numbersDictKeys❗️ ➡️ numbersDictIterator
+  🔁 🔽 numbersDictIterator❓️ 🍇
+    🔽 numbersDictIterator❗️ ➡️ numberStr
+    🍺🔢numberStr 10❗️ ➡️ number
+    2020➖number➡️diff
+    🔡diff❗️➡️diffStr
+    ↪️ 🐣numbersDict 🔡diffStr❗️❗️🍇
+      number✖️diff➡️product
+      🔡product❗️➡️productStr
+      😀🔤--------🔤❗️
+      😀 numberStr❗️
+      😀 diffStr❗️
+      😀 productStr❗️
+      😀🔤--------🔤❗️
+    🍉
+  🍉
+🍉
